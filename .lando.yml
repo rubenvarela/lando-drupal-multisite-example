@@ -1,0 +1,9 @@
+recipe: drupal9
+name: proxytest
+config:
+  webroot: web
+proxy:
+  appserver:
+    - proxytesta.lndo.site
+    - proxytestb.lndo.site
+    - proxytestc.lndo.site
